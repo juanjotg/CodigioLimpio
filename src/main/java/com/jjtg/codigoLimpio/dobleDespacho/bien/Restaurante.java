@@ -1,4 +1,4 @@
-package com.jjtg.codigoLimpio.dobleDespacho.mal;
+package com.jjtg.codigoLimpio.dobleDespacho.bien;
 
 import java.util.Random;
 

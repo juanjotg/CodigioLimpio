@@ -1,13 +1,16 @@
-package com.jjtg.codigoLimpio.dobleDespacho.mal;
+package com.jjtg.codigoLimpio.dobleDespacho.bien.extensible;
 
 import java.util.Random;
 
 public class Restaurante {
 
 	private Recepcionista recepcionista;
+	
+	private Camarero camarero;
 
 	private Restaurante() {
 		recepcionista = new Recepcionista();
+		camarero = new Camarero();
 	}
 
 	public static void main(String[] args) {
@@ -30,6 +33,8 @@ public class Restaurante {
 	private void simularEscenario(Persona persona) {
 		persona.saludar();
 		recepcionista.recibir(persona);
+		persona.pedir();
+		camarero.servir(persona);
 		persona.despedirse();
 		recepcionista.agradecerVisita();
 		System.out.println("... ");
