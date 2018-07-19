@@ -1,24 +1,26 @@
 package jjtg.codigoLimpio.exercises.n2_tickets.v1.supermarket;
 
-
-
+import jjtg.codigoLimpio.exercises.n2_tickets.v1.util.Clock;
 
 public class Supermarket {
 
+	private Menu menu;
 	
 	private Supermarket() {
 		
+		menu = CountryFactory.instance().getMenu();		
 	}
 
 	private void sell() {
-	
-		boolean cerrar = true;
+					
+		Clock clock = new Clock();
 		
 		do {
-			Ticket ticket = CountryFactory.instance().createTicket();
-			Menu menu = CountryFactory.instance().createMenu();
+			Ticket ticket = CountryFactory.instance().getTicket();
+			
 			menu.execute(ticket);
-		} while (!cerrar );
+						
+		} while (!clock.isNowOrLater(5) );
 	}
 
 	public static void main(String[] args) {

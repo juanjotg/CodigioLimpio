@@ -18,9 +18,11 @@ public abstract class CountryFactory {
 		return countryFactory;
 	}
 	
-	public abstract Menu createMenu();
+	protected Menu menu;
 	
-	public abstract Ticket createTicket();
+	public abstract Menu getMenu();
+	
+	public abstract Ticket getTicket();
 
 	
 

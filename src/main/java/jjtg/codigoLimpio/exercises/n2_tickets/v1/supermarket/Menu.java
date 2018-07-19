@@ -1,5 +1,7 @@
 package jjtg.codigoLimpio.exercises.n2_tickets.v1.supermarket;
 
+import jjtg.codigoLimpio.exercises.n2_tickets.v1.util.IO;
+
 public class Menu {
 
 	public void execute(Ticket ticket) {
