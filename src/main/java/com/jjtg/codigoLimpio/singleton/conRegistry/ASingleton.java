@@ -1,4 +1,4 @@
-package jjtg.codigoLimpio.singleton.conRegistry;
+package com.jjtg.codigoLimpio.singleton.conRegistry;
 
 public class ASingleton extends Singleton {
 

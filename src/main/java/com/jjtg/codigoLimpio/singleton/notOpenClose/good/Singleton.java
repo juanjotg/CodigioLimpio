@@ -1,4 +1,4 @@
-package jjtg.codigoLimpio.singleton.notOpenClose.good;
+package com.jjtg.codigoLimpio.singleton.notOpenClose.good;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

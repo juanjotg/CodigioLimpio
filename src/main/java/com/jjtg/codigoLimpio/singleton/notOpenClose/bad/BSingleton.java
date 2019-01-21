@@ -1,4 +1,4 @@
-package jjtg.codigoLimpio.singleton.notOpenClose.bad;
+package com.jjtg.codigoLimpio.singleton.notOpenClose.bad;
 
 public class BSingleton extends Singleton {
 

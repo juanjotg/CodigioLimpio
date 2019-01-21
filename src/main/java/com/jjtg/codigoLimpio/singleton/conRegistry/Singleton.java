@@ -1,4 +1,4 @@
-package jjtg.codigoLimpio.singleton.conRegistry;
+package com.jjtg.codigoLimpio.singleton.conRegistry;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

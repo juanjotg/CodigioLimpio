@@ -1,4 +1,4 @@
-package jjtg.codigoLimpio.singleton.mal;
+package com.jjtg.codigoLimpio.singleton.mal;
 
 public class GestorIO {
 

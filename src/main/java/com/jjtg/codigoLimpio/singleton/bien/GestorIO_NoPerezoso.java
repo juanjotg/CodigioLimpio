@@ -1,4 +1,4 @@
-package jjtg.codigoLimpio.singleton.bien;
+package com.jjtg.codigoLimpio.singleton.bien;
 
 public class GestorIO_NoPerezoso {
 
